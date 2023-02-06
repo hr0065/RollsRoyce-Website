@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Car Website Design</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#" id="phantom">PHANTOM</a></li>
+                <li><a href="#" id="wraith">WRAITH</a></li>
+                <li><a href="#" id="dawn">DAWN</a></li>
+                <li><a href="#" id="cullinan">CULLINAN</a></li>
+            </ul>
+            <a href="#" class="btn">Reserve Now</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <p>EFFORTLESS LUXURY REDEFINED</p>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+
+    var header = document.getElementById("header");
+    var phantom = document.getElementById("phantom");
+    var wraith = document.getElementById("wraith");
+    var dawn = document.getElementById("dawn");
+    var cullinan = document.getElementById("cullinan"); 
+    
+
+    phantom.onclick = function(){
+        header.style.backgroundImage = "url(images/phantom.jpg)";
+    }
+    wraith.onclick = function(){
+        header.style.backgroundImage = "url(images/wraith.jpg)";
+    }
+    dawn.onclick = function(){
+        header.style.backgroundImage = "url(images/dawn.jpg)";
+    }
+    cullinan.onclick = function(){
+        header.style.backgroundImage = "url(images/cullinan.jpg)";
+    }
+
+</script>
+    
+
+</body>
+
+</html>
