@@ -4,7 +4,8 @@ Rolls Royce Showroom Website
 This is a website for a Rolls Royce showroom, where customers can browse and learn about the latest Rolls Royce models, make an appointment for a test drive, and explore financing options.
 
 
-Features
+# Features
+
 The website includes several features that enhance the customer experience:
 
 Responsive Design: The website is optimized for viewing on desktop, tablet, and mobile devices, with a responsive design that ensures a consistent and user-friendly experience across all platforms.
